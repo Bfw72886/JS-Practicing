@@ -16,4 +16,6 @@ const COLOR_RED = "#FF0000";
 const pi = 3.14;
 let userName = "brian";
 
+console.log(typeof pi);
+
 alert(`Pi: ${pi}, Name: ${userName}`);
