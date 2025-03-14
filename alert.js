@@ -14,8 +14,12 @@ is also usable, when strict mode should only be applied to chosen function/s
 
 const COLOR_RED = "#FF0000";
 const pi = 3.14;
-let userName = "brian";
+let userName = prompt("What's your name?", "Joseph");
 
 console.log(typeof pi);
 
 alert(`Pi: ${pi}, Name: ${userName}`);
+
+if(confirm("Want to see a mouse?")) {
+    alert("*<3O~");
+}
