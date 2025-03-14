@@ -12,6 +12,7 @@ function example() {
 is also usable, when strict mode should only be applied to chosen function/s
 */
 
+const COLOR_RED = "#FF0000";
 const pi = 3.14;
 let userName = "brian";
 
