@@ -16,4 +16,4 @@ const COLOR_RED = "#FF0000";
 const pi = 3.14;
 let userName = "brian";
 
-alert("Pi: " + pi + ", Name: " + userName);
+alert(`Pi: ${pi}, Name: ${userName}`);
