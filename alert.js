@@ -12,4 +12,7 @@ function example() {
 is also usable, when strict mode should only be applied to chosen function/s
 */
 
-alert("Hello World!");
+const pi = 3.14;
+let userName = "brian";
+
+alert("Pi: " + pi + ", Name: " + userName);
