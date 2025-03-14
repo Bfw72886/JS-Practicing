@@ -23,3 +23,10 @@ alert(`Pi: ${pi}, Name: ${userName}`);
 if(confirm("Want to see a mouse?")) {
     alert("*<3O~");
 }
+
+// assignments also return values and be chained
+let a;
+let b;
+let c;
+alert(c = 3 + 3);
+a = b = c;
