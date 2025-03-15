@@ -23,3 +23,7 @@ p.textContent = "ME TOO!";
 div.appendChild(p);
 
 container.appendChild(div);
+
+btn.addEventListener("click", function (e) {
+    console.log(e);
+});
